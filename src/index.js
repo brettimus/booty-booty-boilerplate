@@ -1,12 +1,26 @@
+require("./stylesheets/style.scss");
+
 const React = require("react");
 const ReactDOM = require("react-dom");
 
 const App = () => ({
     render() {
+        let styles = {
+            color: "white",
+            fontWeight: 300,
+            lineHeight: 1.6,
+            position: "absolute", 
+            textAlign: "center",
+            top: "20%", 
+            width: "100%"
+        };
+
         return (
-            <p style={{textAlign: "center", position: "absolute", top: "20%", width: "100%"}}>
-                <b>Hello!</b> And welcome to hot-boilerplate.
-            </p>
+            <h1 style={styles}>
+                <b>Hello!</b> 
+                <br />
+                And welcome to hot-boilerplate.
+            </h1>
         );
     },
 });
