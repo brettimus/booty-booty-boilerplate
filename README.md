@@ -3,4 +3,3 @@
 
 ## Todo
 - Add modernizer
-- Remove `no-js` class onload
