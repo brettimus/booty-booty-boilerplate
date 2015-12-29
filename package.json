@@ -17,7 +17,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "scripts": {
-    "start": "$(npm bin)/webpack-dev-server -c --port=8899 --hot --inline",
+    "start": "$(npm bin)/webpack-dev-server -c --port=1337 --hot --inline",
     "build": "make",
     "deploy": "echo \"Oooooops no deploy\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"

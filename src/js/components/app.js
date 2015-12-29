@@ -16,7 +16,7 @@ const App = () => ({
             <h1 style={styles}>
                 <b>Hello!</b> 
                 <br />
-                And welcome to hot-boilerplate.
+                Welcome to hot-boilerplate.
             </h1>
         );
     },
