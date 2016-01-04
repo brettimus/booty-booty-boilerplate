@@ -1,5 +1,5 @@
 # This is some reacty, sassy boilerplate
-`npm start` gets that shit started with webpack dev server :fire: reloading _you know what i'm talking about yeahhhhhhh_:confetti_ball:
+`npm start` gets this party started with webpack dev server :fire: :fire: :fire:
 
 ## Todo
-- Add modernizer
+- Add modernizr

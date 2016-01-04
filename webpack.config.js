@@ -1,8 +1,12 @@
+var path = require("path");
+
 module.exports = {
-  entry: __dirname + '/src/index.js',
+  entry: {
+    tada: path.join(__dirname, 'src/index.js'),
+  },
   output: {
-    path: __dirname + '/dist/',
-    filename: 'tada.js',
+    path: path.join(__dirname, 'dist/'),
+    filename: '[name].js',
     publicPath: "/dist/",
   },
   module: {
